@@ -30,6 +30,7 @@
 * {
     margin: 0;
     line-height: calc(1em + 0.5rem);
+    border: solid red 1px; /*BORDER IS HEREEEEEEEEE*/
 }
 
 html {
