@@ -1,0 +1,123 @@
+.profile {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.profile__img {
+    border-radius: 50%;
+    width: 6rem;
+    height: 9rem;
+}
+
+.profile__minititle {
+    color: var(--clr-slate600);
+    font-size: var(--size-base);
+    line-height: 0.9;
+}
+
+.profile__maintitle {
+    color: var(--clr-slate400);
+    text-transform: uppercase;
+    font-size: var(--size-4xl);
+    letter-spacing: -0.05em;
+    line-height: 0.9;
+}
+
+.profile__description {
+    max-width: 60ch;
+    font-size: var(--size-s);
+    color: var(--clr-slate600);
+}
+.profile__list {
+    text-align: left;
+    max-width: 60ch;
+    font-size: var(--size-s);
+    color: var(--clr-slate600);
+}
+
+.profile__btn {
+    text-transform: capitalize;
+    font-size: var(--size-s);
+}
+
+
+/*XS*/
+/* @media (min-width: 475px){} */
+
+/*S*/
+/* @media (min-width: 640px){} */
+
+/*M*/
+/* @media (min-width: 768px){} */
+
+/*L*/
+/* @media (min-width: 1024px){} */
+
+/*XL*/
+/* @media (min-width: 1280px){} */
+
+/*XXL*/
+/* @media (min-width: 1536px){} */
+
+
+/*XS*/
+@media (min-width: 475px){
+    .profile {
+        
+        gap: 1.5rem;
+    }
+    
+    .profile__img {
+        width: 6.5rem;
+        height: 9.5rem;
+    }
+    
+    .profile__minititle {
+        font-size: var(--size-l);
+    }
+    
+    .profile__maintitle {
+        color: var(--clr-slate400);
+        text-transform: uppercase;
+        font-size: var(--size-4xl);
+        letter-spacing: -0.05em;
+        line-height: 0.9;
+    }
+    
+    .profile__description {
+        max-width: 60ch;
+        font-size: var(--size-s);
+        color: var(--clr-slate600);
+    }
+    .profile__list {
+        text-align: left;
+        max-width: 60ch;
+        font-size: var(--size-s);
+        color: var(--clr-slate600);
+    }
+    
+    .profile__btn {
+        text-transform: capitalize;
+        font-size: var(--size-s);
+    }
+}
+
+/*S*/
+/* @media (min-width: 640px){} */
+
+/*M*/
+/* @media (min-width: 768px){} */
+
+/*L*/
+/* @media (min-width: 1024px){} */
+
+/*XL*/
+/* @media (min-width: 1280px){} */
+
+/*XXL*/
+/* @media (min-width: 1536px){} */
