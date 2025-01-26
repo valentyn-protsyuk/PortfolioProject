@@ -1,5 +1,5 @@
 const theme = () => {
-    const themeToggleBtns = document.querySelectorAll('#theme-toggle');
+    let themeToggleBtns = document.querySelectorAll('#theme-toggle');
     
     //state
     const curTheme = localStorage.getItem('theme');
