@@ -14,12 +14,12 @@
       <nav>
         <!-- HEADER SECTION HERE!!! -->
         <ul class="header__menu">
-          <li><a class="header__link" href="#about">About</a></li>
-          <li><a class="header__link" href="#featured">Work</a></li>
-          <li><a class="header__link" href="#contact">Contact</a></li>
+          <li><a class="header__link" href="#my-profile">Profile</a></li>
+          <li><a class="header__link" href="#my-skills">Skills</a></li>
+          <li><a class="header__link" href="#my-projects">Projects</a></li>
           <li class="header__line"></li>
           <li>
-            <button class="header__sun">
+            <button id="theme-toggle" class="header__sun">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z" />
               </svg>              
@@ -35,10 +35,38 @@
       </nav>
     </header>
 
+    <!-- MOBILE MENU HERE!!! -->
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li>
+            <a class="mobile-nav__link" href="#my-profile">Profile</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#my-skills">Skills</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#my-projects">Projects</a>
+          </li>
+          <li class="mobile-nav__link-line"></li>
+          <li>
+            <button id="theme-toggle" class="mobile-nav__sun">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z" />
+              </svg>              
+            </button>
+          </li>
+          <li>
+            <a class="mobile-nav__btn btn" href="#">Resume</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <main>
 
       <!-- PROFILE SECTION HERE!!! -->
-      <section class="profile container">
+      <section id="my-profile" class="profile container">
         <img class="profile__img" src="./imgs/pfp.jpg" alt="My Photo">
         <h2 class="profile__minititle">Yo! What's up?</h2>
         <h1 class="profile__maintitle">QA Tester</h1>
@@ -47,7 +75,7 @@
       </section>
       
       <!-- SKILLS SECTION HERE!!! -->
-      <section class="skills container section">
+      <section id="my-skills" class="skills container section">
         <div class="skills__text">
           <h2 class="skills__title">Skills</h2>
           <p class="skills__p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis suscipit aut adipisci reprehenderit laudantium quae quis eius ipsam in, velit eligendi iste ipsa excepturi autem laborum nostrum accusamus veniam omnis.</p>
@@ -78,7 +106,7 @@
       </section>
 
       <!-- PROJECTS SECTION HERE!!! -->
-      <section class="projects container section">
+      <section id="my-projects" class="projects container section">
         <h3 class="projects__subtitle">My Projects:</h3>
         <div class="projects__title-wrapper">
           <h2 class="projects__title">Portfolio Project</h2>
@@ -131,5 +159,10 @@
         <!-- <section></section> -->
          <!-- <section></section> -->
     </main>
+    <footer class="footer container section">
+      <h3 class="footer__title">
+        ~ VALENTYN PROTSYUK PORTFOLIO ~
+      </h3>
+    </footer>
   </body>
 </html>
