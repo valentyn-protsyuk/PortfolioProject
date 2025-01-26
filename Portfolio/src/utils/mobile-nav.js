@@ -10,6 +10,7 @@ const mobileNav = () =>{
     headerBtn.addEventListener('click', () => {
         isMobileNavOpen = !isMobileNavOpen;
         if(isMobileNavOpen){
+            globalThis.scrollTo({ top: 0, left: 0, behavior: "instant" });
             mobileNav.style.display = 'flex';
             document.body.style.overflowY = 'hidden';
         }else{
