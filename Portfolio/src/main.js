@@ -9,5 +9,7 @@ import '../styles/components/footer.css';
 import '../styles/components/mobile-nav.css';
 import '../styles/utils.css';
 import mobileNav from './utils/mobile-nav';
+import theme from './utils/theme';
 
 mobileNav();
+theme();
