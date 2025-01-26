@@ -13,14 +13,32 @@
     text-transform: capitalize;
 }
 
-.contact__p {
+.contact__links-title {
     font-size: var(--size-s);
-    color: var(--clr-slate600);
-    max-width: 60ch;
+    color: var(--clr-slate400);
 }
 
-.contact__btn {
+.contact__links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact__link{
     font-size: var(--size-s);
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--clr-slate600);
+    letter-spacing: -0.05em;
+    transition: color 0.3s;
+}
+
+.contact__link:hover{
+    color: var(--clr-rose);
 }
 
 /*XS*/
