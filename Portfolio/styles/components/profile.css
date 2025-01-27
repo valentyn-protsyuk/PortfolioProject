@@ -5,10 +5,10 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    margin-top: 5rem;
 }
 
 .profile__img {
+    margin-top: 5rem;
     border-radius: 50%;
     width: 6rem;
     height: 9rem;

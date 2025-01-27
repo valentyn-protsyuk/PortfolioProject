@@ -31,6 +31,7 @@
 
 .projects__iframe{
     position: absolute;
+    border-color: rgba(225, 29, 79, 0.7);
     top: 0;
     left: 0;
     bottom: 0;
