@@ -30,7 +30,7 @@
 * {
     margin: 0;
     line-height: calc(1em + 0.5rem);
-    border: solid red 1px; /*BORDER IS HEREEEEEEEEE*/
+    /* border: solid red 1px;  */
 }
 
 html {
@@ -51,6 +51,7 @@ body {
     color: var(--clr-light);
 }
 
+iframe,
 img,
 picture,
 video,
