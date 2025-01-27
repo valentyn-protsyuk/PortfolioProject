@@ -1,10 +1,11 @@
 :root {
+    /* --clr-dark: #010101; */
     --clr-dark: #070a13;
     --clr-light: #f1f5f9;
     --clr-slate400: #94a3b8;
     --clr-slate600: #475569;
     --clr-slate800: #1e293b;
-    --clr-rose: #e11d48;
+    --clr-violet: #902bf5;
     --clr-indigo: #4f46e5;
 
     --size-xxs: 0.5rem;
@@ -75,7 +76,7 @@ a {
 }
 
 strong {
-    color: var(--clr-rose);
+    color: var(--clr-violet);
 }
 
 /* custom scrollbar */
@@ -88,6 +89,6 @@ body::-webkit-scrollbar {
   }
    
   body::-webkit-scrollbar-thumb {
-    background-color: var(--clr-rose);
-    outline: 1px solid var(--clr-rose);
+    background-color: var(--clr-violet);
+    outline: 1px solid var(--clr-violet);
   }

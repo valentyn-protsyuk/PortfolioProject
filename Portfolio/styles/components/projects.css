@@ -48,7 +48,7 @@
 }
 
 .projects__link:hover{
-    color: var(--clr-rose);
+    color: var(--clr-violet);
 }
 
 .projects__description{
