@@ -65,7 +65,7 @@
     margin-bottom: 0.25em;
 }
 
-.projects__tech-stack {
+.projects__ul {
     display: flex;
     flex-direction: column;
     gap: 1em;
