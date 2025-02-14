@@ -94,18 +94,7 @@
 }
 
 /*S*/
-@media (min-width: 640px){
-    .skills__img-wrapper {
-        margin: 0 auto;
-
-        /* display: flex;
-        justify-content: center;
-        align-items: center; */
-    }
-    .skills__img {
-        width: 28.6875rem;
-    }
-}
+/* @media (min-width: 640px){} */
 
 /*M*/
 /* @media (min-width: 768px){} */
@@ -128,6 +117,10 @@
 
 /*XL*/
 @media (min-width: 1280px){
+    .skills {
+        gap: 2rem;
+    }
+
     .skills__text{
         gap: 2rem;
     }

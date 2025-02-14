@@ -77,13 +77,6 @@
     .profile__description {
         font-size: var(--size-base);
     }
-    .profile__list {
-        font-size: var(--size-base);
-    }
-    
-    .profile__btn {
-        font-size: var(--size-base);
-    }
 }
 
 /*S*/
@@ -115,13 +108,6 @@
     .profile__description {
         font-size: var(--size-l);
     }
-    .profile__list {
-        font-size: var(--size-l);
-    }
-    
-    .profile__btn {
-        font-size: var(--size-l);
-    }
 }
 
 /*XL*/
@@ -144,13 +130,6 @@
     }
     
     .profile__description {
-        font-size: var(--size-xl);
-    }
-    .profile__list {
-        font-size: var(--size-xl);
-    }
-    
-    .profile__btn {
         font-size: var(--size-xl);
     }
 }
