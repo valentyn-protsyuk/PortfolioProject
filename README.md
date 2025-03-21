@@ -1,6 +1,6 @@
 # Portfolio
 
-Welcome to the **My Portfolio** project! This repository code for my portfolio ✨
+Welcome to the **My Portfolio** project! This repository contains the code for my portfolio ✨
 
 ## Project Structure 📁
 
